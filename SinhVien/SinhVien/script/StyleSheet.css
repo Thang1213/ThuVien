@@ -1,0 +1,50 @@
+﻿.nav23
+{
+ border-radius:5px;
+ -moz-border-radius:5px;
+ vertical-align:middle;
+ height: 27px;
+ text-align:center;
+ width:80%;
+ padding: 0px 0 0;
+ margin-right:5px;
+ background-color:#cccccc; 
+ width: 100%;
+ border:1px solid #ADADAD;
+ }
+
+ .nav23 a, .nav23 a:visited 
+ {
+ color:#000;
+ font-weight:bold;
+ font-family:Arial, Helvetica, sans-serif;
+ text-decoration:none;
+ font-size:12px;
+ padding: 5px 10px;
+ display: block;
+ float:left;
+ border-right:1px solid #fff;
+ }
+ 
+ .nav23 a:hover 
+ {
+ background-color:#999999;
+ color:#FFF;
+  border-radius:5px;
+ -moz-border-radius:5px;
+ }
+ 
+.nav23sub
+{
+ background-color:#cccccc;
+ margin-top:1px;
+ padding:1px;
+ color: #000;
+ margin: 1 1px;
+ padding: 5px 10px;
+ font-weight:bold;
+ font-family:Arial, Helvetica, sans-serif;
+ font-size:12px;
+ border-top:1px #ffc185 solid;
+ cursor:pointer;
+}

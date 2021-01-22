@@ -1,0 +1,110 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="QLSV.master.cs" Inherits="SinhVien.QLSV" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="Head1" runat="server">
+    <title>MaterPage</title>
+    <style type="text/css">
+        .style1
+        {
+            width: 589px;
+        }
+        .style3
+        {
+            width: 168px;
+    }
+        .auto-style1 {
+            margin-left: 0px;
+        }
+        .auto-style2 {
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <form id="form1" runat="server">
+                <div style="margin: 10px auto 10px auto" class="auto-style2">
+                    <asp:Image ID="Image8" runat="server" ImageUrl="banner/img/logo.png" CssClass="auto-style1" Width="1289px"/>
+                </div>
+        <table style="margin: 0px auto 0px auto; width:100%; " align="left">   
+        <tr>
+            <td valign="top">
+            
+                <table style="color: #0099FF; font-size: 20px; font-weight: bold; width: 220px;" 
+                    align="left" bgcolor="#D0EEFD">
+                    <tr>
+                        <td style="padding: 10px; margin: 10px; font-size: 15px; color: #003399; border-bottom-color: #FFFFFF; border-bottom-style: groove;" valign="middle">
+                            <a style="text-decoration:none; color:#003399" href="Thongtinkhoa.aspx"/>
+                            <asp:Image ID="Image1" runat="server" Height="24px" ImageUrl="banner/icon/Info.png" Width="23px"/>Thông Tin Khoa
+                         </td>
+                    </tr>
+                    <tr>
+                        <td style="padding: 10px; margin: 10px; font-size: 15px; color: #003399; border-bottom-color: #FFFFFF; border-bottom-style: groove;" valign="middle">
+                            <a style="text-decoration:none; color:#003399" href="thongTinGiangVien.aspx">
+                             <asp:Image ID="Image2" runat="server" Height="24px" ImageUrl="banner/icon/Profile.png" Width="23px" /> Thông Tin Giảng Viên
+                        </td>
+                    </tr>
+                    <tr>
+                        <td valign="middle" style="padding: 10px; margin: 10px; font-size: 15px; color: #003399; border-bottom-style: groove; border-bottom-color: #FFFFFF;">
+                            <a style="text-decoration:none; color:#003399" href="Thongtinkhoahoc.aspx">
+                            <asp:Image ID="Image3" runat="server" Height="24px" ImageUrl="banner/icon/Modify.png" Width="23px" />ThôngTin Khóa Học
+                        </td>
+                    </tr>
+                    <tr>
+                        <td valign="middle" style="padding: 10px; margin: 10px; font-size: 15px; color: #003399; border-bottom-style: groove; border-bottom-color: #FFFFFF;">
+                             <a style="text-decoration:none; color:#003399" href="thongTinNganh.aspx">
+                             <asp:Image ID="Image10" runat="server" Height="24px" ImageUrl="banner/icon/Line Chart.png" Width="23px" />Thông Tin Ngành Học
+                         </td>
+                    </tr>
+                    <tr>
+                        <td valign="middle" style="padding: 10px; margin: 10px; font-size: 15px; color: #003399; border-bottom-style: groove; border-bottom-color: #FFFFFF;">
+                            <a style="text-decoration:none; color:#003399" href="thongTinLop.aspx">
+                             <asp:Image ID="Image6" runat="server" Height="24px" ImageUrl="banner/icon/Loading.png" Width="23px" />Thông Tin Lớp Học
+                        </td>
+                    </tr>
+                    <tr>
+                        <td valign="middle"  style="padding: 10px; margin: 10px; font-size: 15px; color: #003399; border-bottom-style: groove; border-bottom-color: #FFFFFF;">
+                             <a style="text-decoration:none; color:#003399" href="Thongtinsinhvien.aspx">
+                             <asp:Image ID="Image7" runat="server" Height="24px" ImageUrl="banner/icon/Comment.png" Width="23px" />Thông Tin Sinh Viên
+                         </td>
+                    </tr>
+                    <tr>
+                        <td valign="middle" style="padding: 10px; margin: 10px; font-size: 15px; color: #003399; border-bottom-style: groove; border-bottom-color: #FFFFFF;">
+                             <a style="text-decoration:none; color:#003399" href="conHoc.aspx">
+                             <asp:Image ID="Image4" runat="server" Height="24px" ImageUrl="banner/icon/Bar Chart.png" Width="23px" />Thống Kê
+                        </td>
+                    </tr>
+                    <tr>
+                        <td valign="middle" style="padding: 10px; margin: 10px; font-size: 15px; color: #003399; border-bottom-style: groove; border-bottom-color: #FFFFFF;">
+                             <a style="text-decoration:none; color:#003399" href="Dangnhap.aspx">
+                             <asp:Image ID="Image5" runat="server" Height="24px"  ImageUrl="banner/icon/Exit.png" Width="23px" /> Đăng Xuất
+                        </td>
+                    </tr>
+                </table>
+            </td>
+            <td align="center" valign="top" style="width: 100%">
+                <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                    
+                    
+                </asp:ContentPlaceHolder>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2"  style="padding: 20px; font-weight: bold; background-color: darkblue;
+                color: #FFFFFF; border-radius:7px; -moz-border-radius:7px;">
+                WebSite Quản Lý Thông Tin Sinh Viên <br />
+                Designed by: Đinh Thành Thắng | Trần Thị Thanh Tuyền| Mai Thị Chi| Phan Thị Lam Tuyền
+                <br />
+                Lớp CNTT - K41B QNU
+                <p style="margin:2px">Copyright © 2020, TRƯỜNG ĐẠI HỌC QUY NHƠN</p>
+                <p style="margin:2px">Địa chỉ: 170 An Dương Vương, Tp. Quy Nhơn</p>
+                <p style="margin:2px">Điện thoại: (84-56) 3846156; Fax: (84-56) 3846089</p>
+                <p style="margin:2px">Email:  <a href="mailto:dqn@moet.edu.vn | Tổ Quản trị mạng: web@qnu.edu.vn" target="_top">dqn@moet.edu.vn | Tổ Quản trị mạng: web@qnu.edu.vn</a></p>
+                <p style="margin:2px">Website: <a href="http://www.qnu.edu.vn" style="text-decoration:none" target="_blank"> http://www.qnu.edu.vn</a></p>
+            </td>
+        </tr>
+     </table>
+  </form>
+</body>
+</html>
